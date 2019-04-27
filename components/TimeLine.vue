@@ -20,7 +20,6 @@
       TimeLineItem
     },
     created() {
-      window.addEventListener('beforeunload', this.removeUser)
       setInterval(() => {
         this.addItem();
       },2000)
